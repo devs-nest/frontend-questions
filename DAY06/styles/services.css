@@ -1,0 +1,231 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font: bold;
+    font-size: 1.5em;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+    height: 70px;
+}
+
+.navbar-left {
+    margin-right: auto;
+    
+
+    margin-left: 50px;
+}
+
+.navbar-right {
+    margin-left: auto;
+    
+
+    margin-right: 50px;
+}
+
+.navbar-right a {
+    text-decoration: none;
+    /* font-size: 1.2em; */
+}
+
+/* FOOTER STARTS HERE */
+
+.footer {
+
+    
+    height: 70vh;
+    /* border: 5px solid red; */
+}
+
+.footer-image-wrapper {
+
+    
+    /* border: 5px solid red; */
+}
+
+.footer-heading {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer-image {
+    
+
+    height: 50px;
+    width: 50px;
+    border-radius: 20%;
+    padding: 7px;
+    /* border: 5px solid red; */
+}
+
+.footer-links {
+
+    
+    margin-top: 20%;
+    margin-bottom: 20%;
+    /* border: 5px solid red; */
+}
+
+.footer-item {
+    
+    line-height: 1.5;
+
+}
+
+.footer-bottom {
+
+    
+    /* border: 5px solid red; */
+}
+
+/* FOOTER ENDS HERE */
+
+/* CONTACT SECTION STARTS HERE */
+
+.contact {
+
+    
+    height: 100vh;
+    line-height: 1.5;
+}
+
+.contact-image {
+    height: 550px;
+    /* border: 5px solid red; */
+    width: 50%;
+}
+
+.contact-heading {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 20px;
+    max-width: 500px;
+    /* border: 5px solid red; */
+}
+
+.contact-paragraph {
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-bottom: 20px;
+    max-width: 500px;
+}
+
+.contact-content {
+
+    width: 50%;
+}
+
+.button-blue {
+    
+    border: 2px solid blue;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    border-radius: 15px; 
+    font-size: 17px;
+}
+
+/* CONTACT SECTION ENDS HERE */
+
+/* HERO SECTION STARTS HERE */
+
+.hero {
+
+    
+    height: 70vh;
+    /* border: 5px solid red; */
+}
+
+.hero-heading {
+    font-weight: 700;
+    font-size: 84px;
+    margin-bottom: 20px;
+}
+
+.hero-subheading {
+    font-weight: 500;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.hero-arrow {
+
+    
+    height: 50px;
+    width: 50px;
+    border-radius: 20%;
+    padding: 7px;
+    /* border: 5px solid red; */
+}
+
+/* CTA SECTION STARTS HERE */
+
+.cta-wrapper {
+    height: 100vh;
+    line-height: 1.5;
+}
+
+.cta-left {
+    width: 40%;
+    height: auto;
+    padding-top: 100px;
+    padding-left: 100px;
+    font-size: xx-large;;
+}
+
+.cta-middle {
+    width: 30%;
+    height: auto;
+    padding: 30px;
+}
+
+.cta-right {
+    width: 30%;
+    height: auto;
+    padding: 30px;
+}
+
+.cta-heading {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.cta-subheading {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.cta-card {
+    /* 
+
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* border: 5px solid red; */
+}
+
+.cta-image {
+
+    
+    height: 50px;
+    width: 50px;
+    border-radius: 20%;
+    padding: 7px;
+    /* border: 5px solid red; */
+}

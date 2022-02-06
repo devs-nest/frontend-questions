@@ -1,0 +1,427 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    
+    
+    
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+    
+    height: 70px;
+}
+
+.navbar-left {
+    margin-right: auto;
+
+    
+    
+    margin-left: 50px;
+}
+
+.navbar-right {
+    margin-left: auto;
+
+    
+    
+    margin-right: 50px;
+}
+
+.navbar-right a {
+    text-decoration: none;
+    
+    
+}
+
+/* HERO SECTION CSS HERE */
+.hero {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.hero-left {
+    margin-right: auto;
+
+
+    
+    
+    margin-left: 50px;
+    
+    
+}
+
+.hero-right {
+    margin-left: auto;
+
+    margin-right: 50px;
+}
+
+.hero-text {
+    
+    
+    
+}
+
+.hero-left-content {
+
+
+
+    margin-right: 50px;
+}
+
+.button-ring {
+
+    
+    border: 2px solid blue;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    border-radius: 15px;
+}
+
+.button-transparent {
+
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    
+    /* border-radius: 15px; */
+}
+
+/* HERO SECTION END HERE */
+
+/* CAROUSEL STARTS HERE */
+.cases {
+
+    
+
+    
+    height: 100vh;
+    /* margin-left: 10%;
+    margin-right: 10%; */
+}
+
+.card {
+    position: relative;
+    height: 500px;
+    /* border: 5px solid red; */
+    width: 500px;
+    padding: 20px;
+}
+
+.card-text {
+    position: absolute;
+    
+    margin-bottom: 20px;
+    
+    
+    bottom: 0;
+}
+
+.button-blue-small {
+
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    
+    margin-bottom: 10px;
+}
+
+/* ABOUT STARTS HERE */
+.about-wrapper {
+    
+
+    height: 110vh;
+
+}
+
+.button-white {
+
+    
+    border: 2px solid white;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+.upper, .lower {}
+
+.upper-left {
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.upper-left div {
+    margin: auto;
+
+    
+    
+
+    
+    
+}
+
+.upper-left p {
+    margin: auto;
+
+    
+    
+
+    
+    
+}
+
+.upper-left, .lower-right, .lower-left, .upper-right {
+    height: 450px;
+    width: 50%;
+}
+
+.upper-left-heading {
+    max-width: 800px;
+    
+    
+    
+    
+}
+
+.upper-left-text {
+    max-width: 800px;
+    
+    
+    
+    margin-top: 20px;
+}
+
+.button-align {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.lower-right-upper, .lower-right-lower {
+
+    height: 50%;
+    
+    
+}
+
+.lr-items {
+    width: 50%;
+    
+    
+    height: 100%;
+    
+    
+    
+}
+
+.lr-items-heading {
+    
+    
+    
+}
+
+/* CTA STARTS HERE */
+
+.cta {
+
+    
+    
+
+    
+    
+    height: 100vh;
+}
+
+.cta-heading {
+    
+    
+    
+}
+
+.cta-subheading {
+    
+    
+    text-align: center;
+    
+}
+
+.button-blue {
+
+    
+    border: 2px solid blue;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    border-radius: 15px; 
+    
+    
+}
+
+/* CTA ENDS HERE */
+
+/* WORK SECTION STARTS HERE */
+
+.work {
+
+    
+    
+    height: 100vh;
+
+}
+
+.work-heading {
+    
+    
+    text-align: center;
+    
+    margin-bottom: 25px;
+}
+
+.work-text {
+    
+    
+    text-align: center;
+    
+    margin-bottom: 25px;
+}
+
+.work-images {
+
+
+    
+    
+}
+
+.work-image {
+    height: 150px;
+    width: 400px;
+    /* border: 5px solid red; */
+}
+
+/* WORK SECTION ENDS HERE */
+
+/* CONTACT SECTION STARTS HERE */
+
+.contact {
+
+    
+    
+    height: 100vh;
+    
+}
+
+.contact-image {
+
+
+    height: 550px;
+    /* border: 5px solid red; */
+    width: 50%;
+}
+
+.contact-heading {
+    
+    
+    margin-bottom: 20px;
+    
+    max-width: 500px;
+    /* border: 5px solid red; */
+}
+
+.contact-paragraph {
+    
+    
+    
+    margin-bottom: 20px;
+    max-width: 500px;
+}
+
+.contact-content {
+
+
+
+    
+    width: 50%;
+}
+
+/* CONTACT SECTION ENDS HERE */
+
+/* FOOTER STARTS HERE */
+
+.footer {
+
+    
+    
+
+    height: 70vh;
+    /* border: 5px solid red; */
+}
+
+.footer-image-wrapper {
+
+    
+    
+    /* border: 5px solid red; */
+}
+
+.footer-heading {
+    
+    
+    margin-bottom: 20px;
+}
+
+.footer-image {
+
+    
+    
+    height: 50px;
+    width: 50px;
+    border-radius: 20%;
+    padding: 7px;
+    /* border: 5px solid red; */
+}
+
+.footer-links {
+
+    
+    
+    margin-top: 20%;
+    margin-bottom: 20%;
+    /* border: 5px solid red; */
+}
+
+.footer-item {
+
+
+    
+    
+    
+}
+
+.footer-bottom {
+
+    
+    
+    
+    /* border: 5px solid red; */
+}

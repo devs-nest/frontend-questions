@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    color: blue;
+    font: bold;
+    font-size: 1.5em;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+    height: 70px;
+}
+
+.navbar-left {
+    margin-right: auto;
+    
+    
+    margin-left: 50px;
+}
+
+.navbar-right {
+    margin-left: auto;
+    
+    
+    margin-right: 50px;
+}
+
+.navbar-right a {
+    text-decoration: none;
+    color: #3A4660;
+    /* font-size: 1.2em; */
+}
+
+
+/* FOOTER STARTS HERE */
+
+.footer {
+    
+    
+    height: 70vh;
+    /* border: 5px solid red; */
+}
+
+.footer-image-wrapper {
+    
+    
+    /* border: 5px solid red; */
+}
+
+.footer-heading {
+    font-weight: 700;
+    color: #3A4660;
+    margin-bottom: 20px;
+}
+
+.footer-image {
+    
+    
+    height: 50px;
+    width: 50px;
+    border-radius: 20%;
+    padding: 7px;
+    /* border: 5px solid red; */
+}
+
+.footer-links {
+    
+    
+    margin-top: 20%;
+    margin-bottom: 20%;
+    /* border: 5px solid red; */
+}
+
+.footer-item {
+    
+    line-height: 1.5;
+    
+}
+
+.footer-bottom {
+    
+    
+    color: #8690a7;
+    /* border: 5px solid red; */
+}
+
+/* FOOTER ENDS HERE */
+
+/* CAROUSEL STARTS HERE */
+.cases {
+    
+    
+    height: 100vh;
+    /* margin-left: 10%;
+    margin-right: 10%; */
+}
+
+.card {
+    position: relative;
+    height: 500px;
+    /* border: 5px solid red; */
+    width: 500px;
+    padding: 20px;
+}
+
+.card-text {
+    position: absolute;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #3A4660;
+    font-weight: 500;
+    bottom: 0;
+}
+
+.button-blue-small {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-color: transparent;
+    font-size: 14px;
+    border-radius: 15px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+
+/* CONTACT SECTION STARTS HERE */
+
+.contact {
+    
+    
+    height: 100vh;
+    line-height: 1.5;
+}
+
+.contact-image {
+    height: 550px;
+    /* border: 5px solid red; */
+    width: 50%;
+}
+
+.contact-heading {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #3A4660;
+    max-width: 500px;
+    /* border: 5px solid red; */
+}
+
+.contact-paragraph {
+    font-size: 1.2em;
+    color: #3A4660;
+    font-weight: 500;
+    margin-bottom: 20px;
+    max-width: 500px;
+}
+
+.contact-content {
+    
+    width: 50%;
+}
+
+.button-blue {
+    
+    border: 2px solid blue;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    border-radius: 15px; 
+    color: white;
+    font-size: 17px;
+}
+
+/* CONTACT SECTION ENDS HERE */
+
+
+/* HERO SECTION STARTS HERE */
+
+.hero {
+    
+    
+    height: 70vh;
+    /* border: 5px solid red; */
+}
+
+.hero-heading {
+    font-weight: 700;
+    font-size: 84px;
+    color: blue;
+    margin-bottom: 20px;
+}
+
+.hero-arrow {
+    
+    
+    height: 50px;
+    width: 50px;
+    border-radius: 20%;
+    padding: 7px;
+    /* border: 5px solid red; */
+}
