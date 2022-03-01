@@ -2,7 +2,7 @@ var btn = document.getElementById("fetchphoto");
 var img = document.getElementById("imgid");
 
 const myFunc = () => {
-  fetch("http://localhost:9002/image", {
+  fetch("https://login-signup-production.up.railway.app/image", {
     method: "POST",
   })
     .then((res) => {
